@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "target_id": "T003",
+  "artifacts": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "c444c73e203eb4aad11cf141c612399725bd57c8a3b1981d8b2c2b2081123a06"
+    },
+    {
+      "path": "docs/usage.md",
+      "sha256": "34e51ea6bb2909c07c050a49468bb7b9936c8840e4d28ead8d519a28dd78c150"
+    }
+  ],
+  "excluded": [
+    {
+      "path": "README.md",
+      "sha256": "1c95366f82314a5bc28d1972253cde5f9c5e2a0530a7cf9096b9927e922d689f",
+      "role": "internal",
+      "reason": "例フォルダの利用説明。リリースには含めない"
+    }
+  ],
+  "review": {
+    "reviewer": "reviewer-b",
+    "reviewed_at": "2026-01-12T10:00:00+09:00",
+    "artifact_hashes": {
+      "CHANGELOG.md": "c444c73e203eb4aad11cf141c612399725bd57c8a3b1981d8b2c2b2081123a06",
+      "docs/usage.md": "34e51ea6bb2909c07c050a49468bb7b9936c8840e4d28ead8d519a28dd78c150"
+    },
+    "evidence": {
+      "path": "review.md",
+      "sha256": "23a4198809ba33845a1ab4cdf965ac48dc27fdebc3aee284e0dcfd8d0c82710c"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "updates": [
+    {
+      "id": "T002",
+      "cells": {"status": "review", "updated": "{TODAY}"},
+      "expect": {"status": "doing", "updated": "2026-01-10"}
+    }
+  ],
+  "append": [
+    {"ID": "T005", "title": "CI設定の見直し", "status": "todo", "next_step": "ワークフローを読む", "updated": "{TODAY}"}
+  ]
+}

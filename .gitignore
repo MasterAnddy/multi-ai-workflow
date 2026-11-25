@@ -1,0 +1,4 @@
+.workflow/
+demo_wf/
+__pycache__/
+*.pyc
